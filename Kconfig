@@ -1,6 +1,6 @@
 menu "RC522"
 
-    config RC522_PREVENT_SECTOR_TRAILER_WRITE
+    config MY_RC522_PREVENT_SECTOR_TRAILER_WRITE
         bool "Prevent writing to the Sector Trailer block"
         default y
         help

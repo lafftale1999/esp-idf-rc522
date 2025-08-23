@@ -2,6 +2,7 @@
 #include "rc522.h"
 #include "driver/rc522_spi.h"
 #include "rc522_picc.h"
+#include "driver/gpio.h"
 
 static const char *TAG = "rc522-basic-example";
 
