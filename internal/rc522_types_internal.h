@@ -40,6 +40,7 @@ struct rc522
     rc522_state_t state;                  /*<! Current state */
     rc522_picc_t picc;
     EventGroupHandle_t bits;
+    QueueHandle_t owner_queue;            /*<! Queue handle to queue in owner*/
 };
 
 typedef struct
